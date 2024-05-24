@@ -1,0 +1,19 @@
+:root {
+    --primary-color: #4C6EF5;
+    --secondary-color: #364FC7;
+
+    --gray-color-0:#191C1F;
+    --gray-color-1:#212529;
+    --gray-color-2:#343A40;
+    --gray-color-3:#ADB5BD;
+    --gray-color-4:#CED4DA;
+    --gray-color-5:#F8F9FA;
+
+    --font-family: "Inter";
+}
+
+* {
+    background-color: var(--gray-color-1);
+    padding: none;
+    margin: none;
+}

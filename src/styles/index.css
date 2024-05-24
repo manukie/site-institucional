@@ -1,0 +1,145 @@
+@import url("global.css");
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    background-color: var(--gray-color-0);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1; 
+    border-bottom: solid 2px var(--primary-color);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 14rem;
+    padding-bottom: 11.7rem;
+}
+
+.second-section {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--gray-color-0);
+}
+
+.second-section__text-box {
+    width: 30rem;
+}
+
+.third-section {
+    padding-top: 3.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start
+}
+
+.third-section__left-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.third-section__right-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fourth-section {
+    padding-top: 4.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.fourth-section__comments-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.fourth-section__comments-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fourth-section__user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex;
+}
+
+.fourth-section__info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 3rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    background-color: var(--gray-color-0);
+}
+
+.modal__container {
+    padding: 0;  
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+dialog::backdrop {
+    background-color: rgba(0,0,0, 0.8);
+  }
+
+.modal__upper-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.modal__input-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

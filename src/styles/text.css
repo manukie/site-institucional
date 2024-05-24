@@ -1,0 +1,118 @@
+@import url("global.css");
+
+.title-1 {
+    font-size: 2.75rem;
+    font-weight: 600;
+    line-height: 4.5rem;
+    font-family: var(--font-family);
+    color: var(--gray-color-5);
+  }
+
+.title-1--highlight {
+    font-size: 2.75rem;
+    font-weight: 600;
+    line-height: 4.5rem;
+    font-family: var(--font-family);
+    color: var(--primary-color);
+}
+  
+.title-2 {
+    font-size: 1.7rem;
+    font-weight: 550;
+    line-height: 4rem;
+    font-family: var(--font-family);
+    color: var(--gray-color-5);
+}
+
+.title-3 {
+    font-size: 1.4rem;
+    font-weight: 530;
+    line-height: 2.75rem;
+    font-family: var(--font-family);
+    color: var(--gray-color-5);
+}
+
+.title-4 {
+    font-size: 0.9rem;
+    font-family: var(--font-family);
+    color: var(--gray-color-5);
+}
+
+.text-1 {
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 2.75rem;
+    font-family: var(--font-family);
+    color: var(--gray-color-5);
+}
+
+.text-2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    font-family: var(--font-family);
+    color: var(--gray-color-5);
+}
+
+.text-3 {
+    font-size: 0.9rem;
+    line-height: 1.688rem;
+    font-family: var(--font-family);
+    color: var(--gray-color-4);
+}
+
+.text-4 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.688rem;
+    font-family: var(--font-family);
+    color: var(--gray-color-3);
+    flex-wrap: wrap;
+    width: 50.8rem;
+    margin-bottom: 2rem;
+}
+
+.text-5 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.688rem;
+    font-family: var(--font-family);
+    color: var(--gray-color-3);
+    flex-wrap: wrap;
+    width: 25.8rem;
+    margin-bottom: 2rem;
+}
+
+.text-6 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.688rem;
+    font-family: var(--font-family);
+    color: var(--gray-color-3);
+    flex-wrap: wrap;
+    width: 9rem;
+    margin-bottom: 2rem;
+}
+
+.text-7 {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.688rem;
+    font-family: var(--font-family);
+    color: var(--gray-color-3);
+    flex-wrap: wrap;
+    width: 26rem;
+    margin-bottom: 2rem;
+    padding-left: 3.5rem;
+}
+
+
+.modal__text {
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 1.688rem;
+    font-family: var(--font-family);
+    color: var(--gray-color-3);
+    flex-wrap: wrap;
+    width: 26rem;
+}

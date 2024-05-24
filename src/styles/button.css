@@ -1,0 +1,56 @@
+@import url("global.css");
+
+.button-primary {
+    padding: 1rem;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
+    background-color: var(--primary-color);
+    color: var(--gray-color-5);
+    cursor: pointer;
+  }
+
+.button-primary:hover {
+    background-color: var(--secondary-color);
+}
+
+.button-secondary {
+    padding: 0.2rem;
+    width: 14.5rem;
+    background-color: var(--gray-color-0);
+    color: var(--gray-color-5);
+    cursor: pointer;
+    border: 1px solid var(--gray-color-4);
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 2.75rem;
+    font-family: var(--font-family);
+}
+
+.button-secondary:hover {
+    background-color: var(--gray-color-1);
+}
+
+.close-button {
+    font-size: 0.7rem;
+    font-family: var(--font-family);
+    background-color: var(--gray-color-2);
+    color: var(--gray-color-3);
+    padding: 0.3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.close-button:hover {
+    background-color: var(--gray-color-1);
+}
+
+.modal__button {
+    padding: 0.7rem;
+    padding-left: 4.7rem;
+    padding-right: 4.7rem;
+    background-color: var(--primary-color);
+    color: var(--gray-color-5);
+    cursor: pointer;
+}
